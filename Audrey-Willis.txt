@@ -1,0 +1,195 @@
+Audrey-Willis.txt
+
+https://codepen.io/Nnikky15/full/vYOLweg 
+
+
+1. What is Semantic HTML? 
+    2. What is HTML used for? 
+
+       Html is the origional programming language, It's what was used to make the first web pages,
+       and now it's still used to build the foundations of our modern day pages. Html is the bones of web dev.
+
+
+    3. What is an attribute and where do we put it? 
+
+    An attribute is extra data added to a tag. For instance in an image the attribute describes the image so it 
+    can be translated by page readers
+
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+    H1 is used to convery the most important headline in the page and although there are no "rules" for how many
+    times one can use it, it's considered common practice to just have one.
+
+
+    5. Name two tags that have required attributes
+
+    Img and a
+
+
+    6. What do we put in the head of our HTML document? 
+
+    Metadata that no one can physically see on the page.
+
+
+    7. What is an id? 
+
+    A tag used to select one element and one element only. An id can only be used once per project and is called
+    using the # symbol
+
+
+    8. What elements can I add an id to? 
+
+    Any.
+
+
+    9. How many times can I use the same id on a page? 
+
+    One.
+
+
+    10. What is a class? 
+    
+    A class is a way to catagorize elements that will share code. 
+
+
+    11. What elements can I add a class to? 
+
+    Any.
+
+
+    12. How many times can I use the same class on a page? 
+
+    As many as you need.
+    
+
+    13. How do I get my link to open in a new tab?
+
+    Add a target="_blank" attribute
+
+
+    14. What is the alt attribute used for? 
+
+    Giving a description of an image for page readers
+
+
+    15. How do I reference an id?
+
+    #
+
+
+    16. What is the difference between a section and a div
+
+    A section is used to group things as they appear on the screen. they're natural grouping points. Divs are just 
+    multipurpose containers and can be used to group needed elements together for the sake of organization or styling
+
+
+    17. What is CSS used for? 
+
+    CSS is used to decorate the part of the programs that customers see, its the editing of the look of a page.
+
+
+    18. How to we select an element? Example - every h2 on the page
+
+    h2{
+
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    An ID can only be used once, I can't think of when it would be needed more than a class..but classes 
+    can be used multiple times and you can make classes for anything from .header-images to .red-paragraphs. 
+    if youre going to be working on something that needs very consistant designing, classes can help get everything 
+    organized.
+
+
+    20. How do we select classes in CSS?
+
+    With a period followed by the class Name
+
+
+    21. How do we select a p element with a single class of “human””?
+
+    .human p{
+
+    }
+    22. What is a parent child selector? When would this be useful? 
+
+    
+    23. How do you select all links within a div with the class of sidebar?
+
+
+.sidebar a{
+
+}
+    24. What is a pseudo selector?
+
+    something like :hover that can be addded to the end of a element to change the way it reacts in
+    certain situatuon, such as when the mouse hovers over it.
+
+
+    25. What do we use the change the spacing between lines?
+
+    line-height
+
+
+    26. What do we use to change the spacing between letters?
+
+    letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    text-transform:
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    div{
+        border:1px black dashed;
+    }
+
+    29. How do I select everything on the page? 
+
+    *
+
+
+    30. How do I write a comment in CSS?
+
+    /*  */
+
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+         pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls
+
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    rm...it shouldnt be used because theres no going back. it will be permantly deleted and could potentially destroy something 
+    you need. 
+
+
+    34. Why should I use version control? 
+
+    It gives a good backup, and makes it possible to choose the best possible bits of code for your project
+    when youre working with multiple people occasionaly overlapping code.
+
+    35. How often should I commit to github?
+
+    as often as you need to.
+
+
+    36. What is the command we would use to push our repo up to github? 
+
+    git push origin Audrey-Willis
+
+    37. Walk me through Lambda's git flow. 
+
+    first you fork the project, add you tl as a collaborator, clone onto your system, add your name branch, 
+    work on project commiting as needed, push back to the github site, open a pull request. 
+
+
+
